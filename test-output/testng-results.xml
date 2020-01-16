@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33595" started-at="2019-11-12T04:07:10Z" finished-at="2019-11-12T04:07:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33595" started-at="2019-11-12T04:07:10Z" finished-at="2019-11-12T04:07:44Z">
+      <class name="com.udemySeleniumClass.WikiDeutschByTestNG">
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:com.udemySeleniumClass.WikiDeutschByTestNG@3fee9989]" name="preRequisite" duration-ms="4675" started-at="2019-11-12T04:07:10Z" finished-at="2019-11-12T04:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="lunchURL()[pri:0, instance:com.udemySeleniumClass.WikiDeutschByTestNG@3fee9989]" name="lunchURL" duration-ms="12255" started-at="2019-11-12T04:07:15Z" depends-on-methods="com.udemySeleniumClass.WikiDeutschByTestNG.preRequisite" finished-at="2019-11-12T04:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchURL -->
+        <test-method status="PASS" signature="clickOnDeutsch()[pri:0, instance:com.udemySeleniumClass.WikiDeutschByTestNG@3fee9989]" name="clickOnDeutsch" duration-ms="10829" started-at="2019-11-12T04:07:27Z" depends-on-methods="com.udemySeleniumClass.WikiDeutschByTestNG.lunchURL" finished-at="2019-11-12T04:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDeutsch -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.udemySeleniumClass.WikiDeutschByTestNG@3fee9989]" name="searchSelenium" duration-ms="4498" started-at="2019-11-12T04:07:38Z" depends-on-methods="com.udemySeleniumClass.WikiDeutschByTestNG.clickOnDeutsch" finished-at="2019-11-12T04:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="validate()[pri:0, instance:com.udemySeleniumClass.WikiDeutschByTestNG@3fee9989]" name="validate" duration-ms="1216" started-at="2019-11-12T04:07:43Z" depends-on-methods="com.udemySeleniumClass.WikiDeutschByTestNG.searchSelenium" finished-at="2019-11-12T04:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+      </class> <!-- com.udemySeleniumClass.WikiDeutschByTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
